@@ -36,12 +36,12 @@ export default function Page() {
               </Link>
             </div>
           </div>
-          <Image
-            src={placeholder}
-            alt="Hero"
-            className="mx-auto aspect-square overflow-hidden rounded-xl object-cover w-full max-w-[550px]"
-          />
         </div>
+        <Image
+          src={placeholder}
+          alt="Hero"
+          className="mx-auto aspect-square overflow-hidden rounded-xl object-cover w-full max-w-[550px]"
+        />
       </div>
     </main>
   );
